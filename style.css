@@ -1,0 +1,48 @@
+#nav{
+    background-color: #595757;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1{
+    color: white;
+    padding-left: 20px;
+}
+
+
+#navright {
+    height: 60px;
+    width: 400px;
+    display: flex;
+    margin-right: -15px;
+    align-items: center;
+}
+
+
+
+#navright ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: white;
+
+
+}
+
+.home{
+    opacity: .75;
+}
+
+.btn{
+    color: white;
+    background-color: aqua;
+    box-shadow: 3px 3px black;
+    padding: 5px;
+    width:70px;
+    border-radius: 2%;
+    border: black solid;
+}
